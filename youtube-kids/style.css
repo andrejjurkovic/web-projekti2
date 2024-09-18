@@ -1,0 +1,15 @@
+.search-bar-input {
+    border-radius: 50px;
+    padding: 10px 15px;
+    border-style: none;
+    background-color: rgb(233, 233, 233);
+    color: rgb(146, 146, 146);
+}
+
+.search-bar-input:focus {
+    outline: none;
+}
+/* 
+input:focus {
+    outline: none;
+} */
