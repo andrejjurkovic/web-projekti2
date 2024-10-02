@@ -35,20 +35,54 @@
 .video-category-img {
     width: 70px;
     height: 70px;
+    transition: transform 0.3s ease;
 }
+
+.video-category-img:hover {
+ transform: scale(1.1);
+}
+
 .video-category-div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
+    
 
 }
 .video-category-name-h3{
     margin: 0;
-    color: rgb(241, 96, 96)
+    color: rgb(241, 96, 96);
+    margin-top: 8px;
+    font-size: 24px;
+    text-transform: uppercase;
 }
+.video-categories-div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.video-div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    
+}
+.video-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.video-desc-p  {
+margin: 12px;
 
-
-/* 
-input:focus {
-    outline: none;
-} */
+}
+.videos-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.video-div:hover {
+    transform: scale(1.06);
+    transition: transform 0.3s ease;
+}
