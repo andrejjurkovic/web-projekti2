@@ -66,7 +66,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     overflow: hidden;
-    
 }
 .video-img {
     width: 100%;
@@ -75,14 +74,37 @@
 }
 .video-desc-p  {
 margin: 12px;
+flex: 1;
 
 }
 .videos-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
+    margin-top: 20px;
+    row-gap: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .video-div:hover {
     transform: scale(1.06);
     transition: transform 0.3s ease;
+}
+.video-duration-span {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+.video-and-duration-div {
+    position: relative;
+}
+.dots-img {
+    width: 30px;
+    height: 30px;
+}
+.video-title-options-div {
+    display: flex;
 }
