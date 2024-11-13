@@ -3,26 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    <title>Responsive Product Cards</title>
 </head>
 <body>
-    <nav class="site-header-nav">
-<button class="site-logo-btn">
-    <img src="images/site logo.png" alt="" class="site-logo-img">
-</button>
-<ul class="menu-ul" onclick="toggleMenu()">
-    <li> <a href="#">Shop</a></li>
-    <li> <a href="#">Personalize</a></li>
-    <li> <a href="#">Blog</a></li>
-    <li> <a href="#">Contact</a></li>
-</ul>
-<button class="menu-btn">
-    <img src="images/Hamburger_icon.svg.webp" alt="" class="menu-img">
-</button>
-
-    </nav>
-    
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="cable1.png" alt="Kabel DELOCK, DisplayPort (M) na DisplayPort (M), 4K, 2m">
+            <p class="product-id">200.600.265</p>
+            <p class="product-title">Kabel DELOCK, DisplayPort (M) na DisplayPort (M), 4K, 2m</p>
+            <p class="price">18,99 €</p>
+            <button class="add-to-cart">Dodaj</button>
+        </div>
+        <div class="product-card">
+            <img src="cable2.png" alt="Kabel DELOCK, DisplayPort (M) na HDMI (M), 2.0m">
+            <p class="product-id">202.100.067</p>
+            <p class="product-title">Kabel DELOCK, DisplayPort (M) na HDMI (M), 2.0m</p>
+            <p class="price">31,99 €</p>
+            <button class="add-to-cart">Dodaj</button>
+        </div>
+        <div class="product-card">
+            <img src="cable3.png" alt="Kabel DELOCK, DVI 12+5 (M) na VGA (M), 1m">
+            <p class="product-id">011.502.037</p>
+            <p class="product-title">Kabel DELOCK, DVI 12+5 (M) na VGA (M), 1m</p>
+            <p class="price">5,99 €</p>
+            <button class="add-to-cart">Dodaj</button>
+        </div>
+    </div>
 </body>
 </html>
