@@ -1,0 +1,60 @@
+.image {
+height: 50px;
+width: 100px;
+object-fit: contain;
+}
+
+.nav ul {
+    /* sakrij bulete sa lijeve strane */
+    list-style-type: none;
+    display: flex;
+    /* razmak između elemenata u flexu */
+    gap: 10px;
+}
+
+.nav ul li a {
+    color: rgb(184, 4, 52);
+    /* sva slova velika */
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    /* sakrij podvučeni tekst */
+    text-decoration: none;
+}
+
+.user-login-btn > img {
+    width: 30px;
+    height: 30px;
+}
+
+.cart-btn > img {
+    width: 30px;
+    height: 30px;
+}
+
+.user-login-btn {
+    background-color: rgb(190, 50, 121);
+    border: none;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+}
+.cart-btn {
+    background-color: rgb(190, 50, 121);
+    border: none;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+}
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.header-buttons-cont {
+    gap: 10px;
+}
